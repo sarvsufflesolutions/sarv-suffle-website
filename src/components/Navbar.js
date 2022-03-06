@@ -5,7 +5,7 @@ import Logo from "../images/logo.png";
 const Navbar = ({ toggle }) => {
   return (
     <nav
-      className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm px-8 md:px-20 lg:px-30"
+      className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm"
       role="naigation"
     >
       <Link to="/" className="pl-8">
